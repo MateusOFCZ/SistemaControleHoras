@@ -13,10 +13,10 @@
 
 ## Configurações Necessárias
 
-### Requisitos:
+### Requisitos Recomendados:
  - **PHP:** 7.4.10;
  - **Bootstrap:** 5.0.2;
- - **Fontawesome:** 4.10 ou posterior.
+ - **Fontawesome:** 4.10.
 
 ### Banco de Dados:
 Para o projeto funcionar, execute a SQL e insira as informações para a conexão com o banco de dados no arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob/master/Projeto/Site/db/conexao.php)" localizado em "[Projeto](https://github.com/MateusOFCZ/SistemaControleHoras/tree/master/Projeto) > [Site](https://github.com/MateusOFCZ/SistemaControleHoras/tree/master/Projeto/Site) > [db](https://github.com/MateusOFCZ/SistemaControleHoras/tree/master/Projeto/Site/db)".
