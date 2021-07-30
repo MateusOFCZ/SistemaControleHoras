@@ -26,13 +26,16 @@ Para o projeto funcionar, execute a SQL e insira as informações para a conexã
 
 O arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob/master/Projeto/Site/db/conexao.php)" está estruturado da seguinte forma:
 
-    <?php //Arquivo padrão de conexão do banco de dados.
-	    include_once 'conexao.php';
-	    define('HOST', 'IP DO SERVIDOR');
-	    define('USER', 'USUÁRIO DO SERVIDOR');
-	    define('PASSWORD', 'SENHA DO SERVIDOR');
-	    define('DB', 'sch'); //Não é necessário alterar, apenas se modificado o nome do banco de dados.
-	    $connection = mysqli_connect(HOST, USER, PASSWORD, DB) or die ("Não foi possível conectar!")
-    ?>
+    1 <?php //Arquivo padrão de conexão do banco de dados.
+	2     include_once 'conexao.php';
+	3  
+	4     define('HOST', 'IP DO SERVIDOR');
+	5     define('USER', 'USUÁRIO DO SERVIDOR');
+	6     define('PASSWORD', 'SENHA DO SERVIDOR');
+	7     define('DB', 'sch'); //Não é necessário alterar, apenas se modificado o nome do banco de dados.
+	8    
+	9     $connection = mysqli_connect(HOST, USER, PASSWORD, DB) or die ("Não foi possível conectar!")
+    10 ?>
 
-Para configurar corretamente altere somente as informações destacadas no arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob/master/Projeto/Site/db/conexao.php)". Para verificar se a conexão está sendo feita acesse "SEUSITE.DOMINIO/db/conexao.php" se a página estiver em branco significa que a conexão está correta, caso contrário, reveja as informações inseridas no arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob/master/Projeto/Site/db/conexao.php)".
+Para configurar corretamente altere somente as informações destacadas no arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob/master/Projeto/Site/db/conexao.php)".
+Para verificar se a conexão está sendo feita acesse "SEUSITE.DOMINIO/db/conexao.php" se a página estiver em branco significa que a conexão está correta, caso contrário, reveja as informações inseridas no arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob/master/Projeto/Site/db/conexao.php)".
