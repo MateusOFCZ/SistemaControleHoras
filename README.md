@@ -1,5 +1,10 @@
 # Sistema de Controle de Horas
 
+ - [Arquivos](https://github.com/MateusOFCZ/SistemaControleHoras#arquivos)
+ - [Configurações Necessárias](https://github.com/MateusOFCZ/SistemaControleHoras#configura%C3%A7%C3%B5es-necess%C3%A1rias)
+	 - [Requisitos Recomendados](https://github.com/MateusOFCZ/SistemaControleHoras#requisitos-recomendados)
+	 - [Banco de Dados](https://github.com/MateusOFCZ/SistemaControleHoras#banco-de-dados)
+
 ## Arquivos
 
  - O site está localizado em "[Projeto](https://github.com/MateusOFCZ/SistemaControleHoras/tree/master/Projeto) > [Site](https://github.com/MateusOFCZ/SistemaControleHoras/tree/master/Projeto/Site)";
@@ -38,4 +43,4 @@ O arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob
     10 ?>
 
 Para configurar corretamente altere somente as informações destacadas no arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob/master/Projeto/Site/db/conexao.php)".
-Para verificar se a conexão está sendo feita acesse "SEUSITE.DOMINIO/db/conexao.php" se a página estiver em branco significa que a conexão está correta, caso contrário, reveja as informações inseridas no arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob/master/Projeto/Site/db/conexao.php)".
+Para verificar se a conexão está sendo feita acesse "SEUSITE.DOMINIO/db/conexao.php" se a página estiver em branco significa que a conexão está correta, caso contrário, reveja as informações inseridas no arquivo "[conexao.php](https://github.com/MateusOFCZ/SistemaControleHoras/blob/master/Projeto/Site/db/conexao.php)" e/ou verifique as [configurações](https://github.com/MateusOFCZ/SistemaControleHoras#configura%C3%A7%C3%B5es-necess%C3%A1rias).
